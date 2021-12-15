@@ -4,7 +4,6 @@
   <title>Intern Data Upload Form</title>
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <!-- <script src="index.js"></script> -->
 <body>
   <!-- logo -->
   <div id="top" class="flex">
@@ -40,19 +39,37 @@
       <p><input placeholder="Identification Number" oninput="this.className = ''" id='id_num' name="id_number"></p>
     </div>
     <div class="tab">Id Proof :
-      <!-- <select id='dropdown' required>
+      <select id='dropdown' required>
         <option disabled selected value>Select ID Type</option>
         <option value='Aadhar_Card'>Aadhar Card</option>
         <option value='Driving_License'>Driving License</option>
         <option value='Pan_Card'>Pan Card</option>
         <option value='Voter_Card'>Voter Card</option>
         <option value='Passport'>Passport</option>
-    </select> -->
-      <p><input placeholder="Enter ID Type (Aadhar,Pan,DL,etc)" oninput="this.className = ''" id='id_type' name="idproof"></p>
+    </select>
+      <!-- <p><input placeholder="Enter ID Type (Aadhar,Pan,DL,etc)" oninput="this.className = ''" id='id_type' name="idproof"></p> -->
       <p><input placeholder="Enter ID Number" oninput="this.className = ''" id='id_proof' name="idproof"></p>
     </div>
     <div class="tab">Department & Position :
-      <p><input placeholder="Enter Department" oninput="this.className = ''" id='dep' name="dep"></p>
+      <!-- <p><input placeholder="Enter Department" oninput="this.className = ''" id='dep' name="dep"></p> -->
+        <select id='dropdown_dep' required>
+          <option disabled selected value>Select Department</option>
+          <option value='Psychologist'>Psychologist</option>
+          <option value='Counsellors'>Counsellors</option>
+          <option value='Content_Writer'>Content Writer</option>
+          <option value='Graphic_Designer'>Graphic Designer</option>
+          <option value='Video_Editor'>Video Editor</option>
+          <option value='Social_Media_Marketing'>Social Media Marketing</option>
+          <option value='Digital_Mrketing'>Digital Mrketing</option>
+          <option value='Market_Research'>Market Research</option>
+          <option value='Front-End'>Front-End</option>
+          <option value='Back-End'>Back-End</option>
+          <option value='UI/UX_Design'>UI/UX Design</option>
+          <option value='Event_Management'>Event Management</option>
+          <option value='Campus_Ambassador'>Campus Ambassador</option>
+          <option value='Business_Development'>Business Development</option>
+          <option value='HR'>HR</option>
+      </select>
       <p><input placeholder="Enter Position" oninput="this.className = ''" id='pos' name="position"></p>
     </div>
     <div class="tab">City Of Residence :
