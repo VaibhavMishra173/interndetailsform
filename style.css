@@ -140,9 +140,6 @@ img {
     bottom: -4px;
     overflow: hidden;
     letter-spacing: 3px;
-    /* opacity: 0; */
-    transition: opacity .45s;
-    -webkit-transition: opacity .35s;
 }
 
 .button {
@@ -151,26 +148,8 @@ img {
     padding: 12px;
     margin: 15px;
     color: white;
-    width: 45px;
+    width: 135px;
     background: linear-gradient(120deg, rgb(238, 117, 117), rgb(88, 90, 92));
-    transition: width .35s;
-    -webkit-transition: width .35s;
     overflow: hidden;
-    /* opacity: 50%; */
-}
-.button:hover {
-    opacity: 100%;
-}
-
-a:hover {
-    width: 125px;
-}
-
-a:hover .logout {
-    opacity: .9;
-}
-
-a {
-    text-decoration: none;
 }
 
