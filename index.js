@@ -142,7 +142,7 @@ function validateForm() {
       }
       else {
         valid = false;
-        alert("Please Enter a Valid Pan Card Number");
+        alert("Please Enter a Valid Voter Card Number");
       }
     }
     if (document.getElementById("dropdown").value == "Passport") {
