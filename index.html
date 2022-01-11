@@ -31,9 +31,7 @@
       <p><input placeholder="Whats App Number..." oninput="this.className = ''" id='wnumber' name="wnumber"></p>
     </div>
     <div class="tab">Date Of Birth :
-      <p><input placeholder="dd" oninput="this.className = ''" id='dob_d' name="dobdd"></p>
-      <p><input placeholder="mm" oninput="this.className = ''" id='dob_m' name="dobnn"></p>
-      <p><input placeholder="yyyy" oninput="this.className = ''" id='dob_y' name="dobyyyy"></p>
+      <p><input type="date" oninput="this.className = ''" id='dob' name="dob"></p>
     </div>
     <div class="tab">Qualification & Identification Number :
       <p><input placeholder="Highest Qualification" oninput="this.className = ''" id='qual' name="qualification"></p>
@@ -48,11 +46,9 @@
         <option value='Voter_Card'>Voter Card</option>
         <option value='Passport'>Passport</option>
       </select>
-      <!-- <p><input placeholder="Enter ID Type (Aadhar,Pan,DL,etc)" oninput="this.className = ''" id='id_type' name="idproof"></p> -->
       <p><input placeholder="Enter ID Number" oninput="this.className = ''" id='id_proof' name="idproof"></p>
     </div>
     <div class="tab">Department & Position :
-      <!-- <p><input placeholder="Enter Department" oninput="this.className = ''" id='dep' name="dep"></p> -->
       <select id='dropdown_dep' required>
         <option selected value="0">Select Department</option>
         <option value='Psychologist'>Psychologist</option>
@@ -77,22 +73,14 @@
       <p><input placeholder="Enter City" oninput="this.className = ''" id='city' name="residence"></p>
     </div>
     <div class="tab">Date Of Joining :
-      <p><input placeholder="dd" oninput="this.className = ''" name="dojdd" id='dob_jd'></p>
-      <p><input placeholder="mm" oninput="this.className = ''" name="dojnn" id='dob_jm'></p>
-      <p><input placeholder="yyyy" oninput="this.className = ''" name="dojyyyy" id='dob_jy'></p>
+      <p><input type="date" oninput="this.className = ''" id='dob_j' name="dob_j"></p>
     </div>
     <div class="tab">Tenure Of Internship:
       <p><input placeholder="Enter Tenure (in Months)" oninput="this.className = ''" id='tenure' name="tenure"></p>
     </div>
     <div class="tab">End Date Of Internship :
-      <p><input placeholder="dd" oninput="this.className = ''" name="enddd" id='dob_ed'></p>
-      <p><input placeholder="mm" oninput="this.className = ''" name="endnn" id='dob_em'></p>
-      <p><input placeholder="yyyy" oninput="this.className = ''" name="endyyyy" id='dob_ey'></p>
+      <p><input type="date" oninput="this.className = ''" id='dob_e' name="dob_e"></p>
     </div>
-    <!-- <div class="tab">Documents Uploaded To Drive? :
-      <p><input type='radio' oninput="this.className = ''" name="answer">Yes</p>
-      <p><input type='radio' oninput="this.className = ''" name="answer">No</p>
-    </div> -->
     <div class="tab">Certificate ID :
       <p><input placeholder="Enter Certificate Id..." oninput="this.className = ''" id='cid' name="cid"></p>
     </div>
@@ -113,7 +101,6 @@
       <span class="step"></span>
       <span class="step"></span>
       <span class="step"></span>
-      <!-- <span class="step"></span> -->
       <span class="step"></span>
       <span class="step"></span>
     </div>
