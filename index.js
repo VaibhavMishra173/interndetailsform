@@ -76,20 +76,6 @@ function validateForm() {
       }
     }
   }
-  if (currentTab == "2") {
-    if ((document.getElementById("dob_d").value.length < 1) || (document.getElementById("dob_d").value.length > 2) || isNaN(document.getElementById("dob_d").value) || (document.getElementById("dob_d").value < "0") || (document.getElementById("dob_d").value > "31")) {
-      valid = false;
-      alert("Please enter a Valid Date");
-    }
-    if ((document.getElementById("dob_m").value.length < 1) || (document.getElementById("dob_m").value.length > 2) || isNaN(document.getElementById("dob_m").value) || (document.getElementById("dob_m").value < "0") || (document.getElementById("dob_m").value > "12")) {
-      valid = false;
-      alert("Please enter a Valid Month");
-    }
-    if ((document.getElementById("dob_y").value.length !== 4) || isNaN(document.getElementById("dob_y").value)) {
-      valid = false;
-      alert("Please enter a Valid Year");
-    }
-  }
   if (currentTab == "3") {
     if (isNaN(document.getElementById("id_num").value)) {
       valid = false;
@@ -163,39 +149,10 @@ function validateForm() {
       alert("Please Select a Valid Department");
     }
   }
-  if (currentTab == "7") {
-    if ((document.getElementById("dob_jd").value.length < 1) || (document.getElementById("dob_jd").value.length > 2) || isNaN(document.getElementById("dob_jd").value) || (document.getElementById("dob_jd").value < "0") || (document.getElementById("dob_jd").value > "31")) {
-      valid = false;
-      alert("Please enter a Valid Date");
-    }
-    if ((document.getElementById("dob_jm").value.length < 1) || (document.getElementById("dob_jm").value.length > 2) || isNaN(document.getElementById("dob_jm").value) || (document.getElementById("dob_jm").value < "0") || (document.getElementById("dob_jm").value > "12")) {
-      valid = false;
-      alert("Please enter a Valid Month");
-    }
-    if ((document.getElementById("dob_jy").value.length !== 4) || isNaN(document.getElementById("dob_jy").value)) {
-      valid = false;
-      alert("Please enter a Valid Year");
-    }
-  }
   if (currentTab == "8") {
     if ((document.getElementById("tenure").value.length < 1) || (document.getElementById("tenure").value.length > 12) || isNaN(document.getElementById("tenure").value)) {
       valid = false;
       alert("Please Enter a Valid Tenure Range Between (1-12)");
-    }
-  }
-  if (currentTab == "9") {
-    if ((document.getElementById("dob_ed").value.length < 1) || (document.getElementById("dob_ed").value.length > 2) || isNaN(document.getElementById("dob_ed").value) || (document.getElementById("dob_ed").value < "0") || (document.getElementById("dob_ed").value > "31")) {
-      valid = false;
-      alert("Please enter a Valid Date");
-    }
-    if ((document.getElementById("dob_em").value.length < 1) || (document.getElementById("dob_em").value.length > 2) || isNaN(document.getElementById("dob_em").value) || (document.getElementById("dob_em").value < "0") || (document.getElementById("dob_em").value > "12")) {
-      valid = false;
-      alert("Please enter a Valid Month");
-    }
-    if ((document.getElementById("dob_ey").value.length !== 4) || isNaN(document.getElementById("dob_ey").value)) {
-      valid = false;
-      alert("Please enter a Valid Year");
-      e
     }
   }
   if (currentTab == "10") {
